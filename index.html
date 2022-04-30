@@ -38,16 +38,16 @@
 <script>
     function login() {
         input1 = document.getElementById("input1").value;
-        input2 = document.getElementById("input2").value;
-        if(input1="@"){
+        input2 = document.getElementById("input2").value
+            
+          localStorage.getItem(input1);
+        localStorage.getItem(input2);
+         if(input1="@"){
          window.location="nasa.html"
         }
         else{
               window.location=""
         }
-            
-          localStorage.getItem(input1);
-        localStorage.getItem(input2);
-        window.location="nasa.html"
    }
+    
 </script>
